@@ -105,24 +105,38 @@
 
 ---
 
-# Aktivitetslogg: Vecka 44-46
-
-## Vecka 44
-- Skapade projektet **AccountProvider** i Visual Studio och lade upp strukturen med lager för modeller, tester och databas.
-- Dokumenterade användarberättelser för att hantera produkter och order.
-- Ritade aktivitetsdiagram och sekvensdiagram för kund- och administratörsflöden.
-
-## Vecka 45
-- Skrev enhetstester för **Product**-klassen med TDD.
-- Implementerade **DbContext** och ett **Order Repository** för att hantera databasaccess.
-- Debuggade och löste buggar med databasanslutning och objekt.
-
-## Vecka 46
-- Slutförde projektet och säkerställde att alla tester passerade.
-- Arbetade enligt TDD och designprinciper som SOLID.
-
+# Aktivitetslogg: Visual Studio Vecka 44-46
 
 ---
+
+## Vecka 44
+- **Skapade projektet AccountProvider:**  
+  Jag startade ett nytt projekt i Visual Studio och lade upp en struktur med lager för modeller, tester och databas.  
+- **Dokumenterade användarberättelser:**  
+  Jag skrev användarberättelser för att beskriva hur systemet hanterar produkter och ordrar.  
+- **Ritade aktivitetsdiagram och sekvensdiagram:**  
+  Jag ritade aktivitetsdiagram och sekvensdiagram för att visa flödet för både kunder och administratörer.
+
+---
+
+## Vecka 45
+- **Skrev enhetstester för Product-klassen:**  
+  Jag använde TDD (Test-Driven Development) och skrev tester för `Product`-klassen innan jag implementerade funktionaliteten.  
+- **Kopplade projektet till databasen:**  
+  Jag kopplade projektet till databasen med hjälp av Entity Framework. Jag använde DbContext för att koppla mina klasser till tabeller i databasen och skapade databasen med migreringar. Jag debuggar också problem, som när connection strings var fel eller när data inte sparades rätt.  
+- **Skapade ett Order Repository:**  
+  Jag skapade ett repository för att hantera ordrar i databasen och lade till funktioner för att skapa, läsa och uppdatera ordrar.
+
+---
+
+## Vecka 46
+- **Slutförde projektet:**  
+  Jag säkerställde att alla funktioner var implementerade och att testerna passerade utan fel.  
+- **Följde designprinciper:**  
+  Jag arbetade enligt TDD och följde SOLID-principer för att hålla koden enkel, lätt att ändra och välstrukturerad.  
+
+---
+
 
 
 # Aktivitetslogg: Vecka 44-46
